@@ -7,3 +7,5 @@ for (let index = 1; index <= 100; index++) {
     newArray.push(index)
 }
 console.log(newArray)
+
+
