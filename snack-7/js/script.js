@@ -5,11 +5,8 @@ const putYourName = prompt("inserisci il nome dell'attore")
 let people = false;
 
 for (let i = 0; i < nameList.length; i++){
-    const guest = nameList [index];
-
-    if (guest === putYourName) {
+    if (nameList [i] === putYourName) {
         people = true;
+        alert()
     }
 }
-
-console.log(people);
